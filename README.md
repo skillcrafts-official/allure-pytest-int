@@ -30,7 +30,7 @@ def test_failed_login():
 ```
 ### 3. Запуск тестов с сохранением результатов
 ```bash
-pytest --alluredir=./allure-results test_demo.py
+pytest --alluredir=./allure-results --clean-alluredir test_demo.py
 ```
 В папке `allure-results` появятся JSON-файлы с результатами.
 
